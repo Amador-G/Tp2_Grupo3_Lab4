@@ -1,6 +1,6 @@
 package Dominio;
 
-public class Profesor extends Empleado {
+public class Profesor extends Empleado implements Comparable<Profesor>{
 	private String Cargo;
 	private int AntiguedadDocente;
 
@@ -34,6 +34,15 @@ public class Profesor extends Empleado {
 	@Override
 	public String toString() {
 		return "Profesor " + super.toString() +  "Cargo = " + Cargo + " Antiguedad Docente = " + AntiguedadDocente;
+	}
+	
+	@Override
+	public int compareTo(Profesor o) {
+		if(o.getId() == this.getId())
+		return 0;
+		if(o.getId()>this.getId()){
+			return -1;
+		}
+		return 1;
 	}	
-
 }
