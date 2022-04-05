@@ -13,7 +13,7 @@ public class mainEjercicio1_b {
 		listaProfesores.add(new Profesor("PR3",31,"Titular",11));
 		listaProfesores.add(new Profesor("PR4",33,"Titular",13));
 		listaProfesores.add(new Profesor("PR5",34,"Suplente",14));
-		listaProfesores.add(new Profesor("PR6",35,"Suplente",15));
+		
 		
 		System.out.println("Lista de Profesores: \n");
 		
