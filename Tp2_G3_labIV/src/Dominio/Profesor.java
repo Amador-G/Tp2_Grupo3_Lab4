@@ -1,6 +1,34 @@
 package Dominio;
 
 public class Profesor extends Empleado implements Comparable<Profesor>{
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + AntiguedadDocente;
+		result = prime * result + ((Cargo == null) ? 0 : Cargo.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Profesor other = (Profesor) obj;
+		if (AntiguedadDocente != other.AntiguedadDocente)
+			return false;
+		if (Cargo == null) {
+			if (other.Cargo != null)
+				return false;
+		} else if (!Cargo.equals(other.Cargo))
+			return false;
+		return true;
+	}
+
 	private String Cargo;
 	private int AntiguedadDocente;
 
