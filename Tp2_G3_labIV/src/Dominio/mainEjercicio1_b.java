@@ -20,7 +20,7 @@ public class mainEjercicio1_b {
 		for (Profesor x: listaProfesores) {
 			System.out.println(x.toString());
 		}
-	}
+			}
 }
 
 

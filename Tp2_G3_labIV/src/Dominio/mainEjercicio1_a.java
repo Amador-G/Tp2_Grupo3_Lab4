@@ -28,7 +28,7 @@ public class mainEjercicio1_a {
 		}else {
 			System.out.println("No es el mismo profesor.");
 		}
-
+		
 	}
 
 }
