@@ -49,7 +49,7 @@ public class Prefrigerados extends Producto{
 
 	@Override
 	public String toString() {
-		return "\nProducto de tipo: Prefrigerados \nCódigo del Organismo de Supervicion Alimentario: " + OrganismoSupervicionAlimentario;
+		return super.toString() + "\nProducto de tipo: refrigerado \nCódigo del Organismo de Supervicion Alimentario: " + OrganismoSupervicionAlimentario;
 	}
 	
 }

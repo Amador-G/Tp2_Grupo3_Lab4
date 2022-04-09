@@ -51,7 +51,7 @@ public abstract class Producto {
 
 	@Override
 	public String toString() {
-		return "Producto \n" + "N° de lote : " + NumeroDeLote + "\nFecha de caducidad : " + FechaDeCaducidad;
+		return "\nProducto \n" + "N° de lote : " + NumeroDeLote + "\nFecha de caducidad : " + FechaDeCaducidad;
 	}
 	
 	
