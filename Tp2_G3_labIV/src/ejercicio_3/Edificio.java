@@ -2,7 +2,7 @@ package ejercicio_3;
 
 public abstract class Edificio {
 
-	protected static double Superficie;
+	private double Superficie;
 	
 	Edificio(){
 		this.Superficie = 0;
@@ -22,7 +22,7 @@ public abstract class Edificio {
 
 	@Override
 	public String toString() {
-		return "Edificio [Superficie=" + Superficie + "]";
+		return "\nEdificio [Superficie=" + Superficie + "]";
 	}	
 	
 }

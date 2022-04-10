@@ -53,7 +53,4 @@ public abstract class Producto {
 	public String toString() {
 		return "\nProducto \n" + "N° de lote : " + NumeroDeLote + "\nFecha de caducidad : " + FechaDeCaducidad;
 	}
-	
-	
-
 }

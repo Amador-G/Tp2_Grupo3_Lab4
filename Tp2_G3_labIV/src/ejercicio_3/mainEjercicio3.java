@@ -13,14 +13,13 @@ public class mainEjercicio3 {
 	listaEdificio.add(new Polideportivo("Polideportivo N2", 1500));
 	listaEdificio.add(new Polideportivo("Polideportivo N3", 900));
 	
+	System.out.println("Lista de Edificios:");
+	
 	java.util.ListIterator<Edificio> it = listaEdificio.listIterator();
 	while (it.hasNext()) {
 		Edificio edificio = it.next();
 		it.remove();
 		System.out.print(edificio.toString());
+		}
 	}
-	
-
-	}
-
 }

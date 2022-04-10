@@ -2,10 +2,6 @@ package ejercicio_2;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-import java.util.SortedSet;
-import java.util.TreeSet;
-
-
 
 public class MainEjercicio2 {
 	

@@ -1,7 +1,5 @@
 package ejercicio_2;
 
-import java.util.Objects;
-
 public class Prefrigerados extends Producto{
 
 	private int OrganismoSupervicionAlimentario;
